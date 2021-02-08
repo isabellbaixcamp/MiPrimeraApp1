@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var buttonAddTask: Button // lateinit refiere al inicio luego de tal variable
     lateinit var etTask: EditText
     lateinit var rvTask: RecyclerView
-
+/////
     lateinit var adapter:TaskAdapter
 
     var task = mutableListOf<String>()
