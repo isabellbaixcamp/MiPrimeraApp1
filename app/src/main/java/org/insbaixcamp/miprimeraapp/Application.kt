@@ -2,7 +2,7 @@ package org.insbaixcamp.miprimeraapp
 
 import android.app.Application
 
-class Aplicacion:Application() {
+class TasApplication:Application() {
 
    companion object{
        lateinit var prefs:Preferencias

@@ -3,15 +3,11 @@ package org.insbaixcamp.miprimeraapp
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Adapter
 import android.widget.Button
 import android.widget.EditText
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.insbaixcamp.miprimeraapp.Aplicacion.Companion.prefs
-import java.text.FieldPosition
-
-import java.util.*
+import org.insbaixcamp.miprimeraapp.TasApplication.Companion.prefs
 
 class MainActivity : AppCompatActivity() {
     lateinit var buttonAddTask: Button // lateinit refiere al inicio luego de tal variable
