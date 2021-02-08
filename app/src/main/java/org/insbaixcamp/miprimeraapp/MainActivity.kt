@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var rvTask: RecyclerView
 /////
     lateinit var adapter:TaskAdapter
-
+///  codigo a guardar nueva rama
     var task = mutableListOf<String>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
